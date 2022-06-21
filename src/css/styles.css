@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  
 }
 
 body {
@@ -12,9 +13,41 @@ body {
   line-height: 1.5;
 }
 
+.country-info {
+  /* max-width: 400px; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  font-size: large;
+}
+
 #search-box {
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+.country-list {
+  list-style: none;
+  
+}
+
+.li-country {
+  display: flex;
+}
+
+.flag {
+  width:40px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.info {
+  margin: 5px 0 5px 0;
+}
+
+.title {
+  display: flex;
 }
